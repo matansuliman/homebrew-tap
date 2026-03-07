@@ -1,0 +1,22 @@
+{
+    "version": "0.3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/matansuliman/keelo/releases/download/v0.3.0/keelo_0.3.0_windows_amd64.zip",
+            "bin": [
+                "keelo.exe"
+            ],
+            "hash": "7fd9b9ca05356e90917cbd4c5ba3b6b800721d3c74641d7c8a47a870d7c702d6"
+        },
+        "arm64": {
+            "url": "https://github.com/matansuliman/keelo/releases/download/v0.3.0/keelo_0.3.0_windows_arm64.zip",
+            "bin": [
+                "keelo.exe"
+            ],
+            "hash": "43a22104d0c45d75383f7fd2218eb2f675121b8642cf4e1dcae9c112585c8bde"
+        }
+    },
+    "homepage": "https://github.com/matansuliman/keelo",
+    "license": "MIT",
+    "description": "A modular composition layer for Docker Compose."
+}

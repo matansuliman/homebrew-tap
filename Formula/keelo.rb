@@ -5,20 +5,20 @@
 class Keelo < Formula
   desc "A modular composition layer for Docker Compose."
   homepage "https://github.com/matansuliman/keelo"
-  version "0.5.0"
+  version "0.6.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/matansuliman/keelo/releases/download/v0.5.0/keelo_0.5.0_darwin_amd64.tar.gz"
-      sha256 "1df68d04751b3b6c32ead3c87bfb772a47402121a663e136877c190d2b9eaf36"
+      url "https://github.com/matansuliman/keelo/releases/download/v0.6.0/keelo_0.6.0_darwin_amd64.tar.gz"
+      sha256 "da37366697b2eb9580b0bc57fa7107b841dd17db9e2c6499707002334626a3d3"
 
       define_method(:install) do
         bin.install "keelo"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/matansuliman/keelo/releases/download/v0.5.0/keelo_0.5.0_darwin_arm64.tar.gz"
-      sha256 "4ccb6e4fc4542d10a5f511f1c1fc65ac887604be1e18f39d22fc8f2dadaf57b4"
+      url "https://github.com/matansuliman/keelo/releases/download/v0.6.0/keelo_0.6.0_darwin_arm64.tar.gz"
+      sha256 "3f739817c9e46cbf015515273cbb3d2c7a265509002f8f818c6ce63b0d89292c"
 
       define_method(:install) do
         bin.install "keelo"
@@ -28,15 +28,15 @@ class Keelo < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/matansuliman/keelo/releases/download/v0.5.0/keelo_0.5.0_linux_amd64.tar.gz"
-      sha256 "5dc4fe0078e583daa517b7bb3d48975757a0e3847485cfdcb5b7ea47c9b724e4"
+      url "https://github.com/matansuliman/keelo/releases/download/v0.6.0/keelo_0.6.0_linux_amd64.tar.gz"
+      sha256 "0f2a680fb2086002c5f3ac9adfc9317d8ce775040a7e857cc0fd06f864abf495"
       define_method(:install) do
         bin.install "keelo"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/matansuliman/keelo/releases/download/v0.5.0/keelo_0.5.0_linux_arm64.tar.gz"
-      sha256 "7bb89b15f20340a260b582484adf988d1547d755205ab1a04e0d6a378b709d1e"
+      url "https://github.com/matansuliman/keelo/releases/download/v0.6.0/keelo_0.6.0_linux_arm64.tar.gz"
+      sha256 "67f093c92bbf07d8c1da27afc4eea8c21b3cc066951376e82a0c084c42e2ba97"
       define_method(:install) do
         bin.install "keelo"
       end

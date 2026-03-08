@@ -1,19 +1,19 @@
 {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/matansuliman/keelo/releases/download/v0.4.0/keelo_0.4.0_windows_amd64.zip",
+            "url": "https://github.com/matansuliman/keelo/releases/download/v0.5.0/keelo_0.5.0_windows_amd64.zip",
             "bin": [
                 "keelo.exe"
             ],
-            "hash": "68efddce3a8b3f0e092a5a4429239d995568606406ba9f98cdcb3a3355e039e6"
+            "hash": "84fe0c4783df6094b2bdfbf2b0ca11d1f2eca3a6bbec6f25ef34bf20525e5628"
         },
         "arm64": {
-            "url": "https://github.com/matansuliman/keelo/releases/download/v0.4.0/keelo_0.4.0_windows_arm64.zip",
+            "url": "https://github.com/matansuliman/keelo/releases/download/v0.5.0/keelo_0.5.0_windows_arm64.zip",
             "bin": [
                 "keelo.exe"
             ],
-            "hash": "944c147756155bf8493d2aa6c1cfb3219f7e60704d764ebc91c611ad1429bece"
+            "hash": "a984613585acfa5dbea93a9f38e9fbc5cb4c330fb7085b539652b86a360e7dd4"
         }
     },
     "homepage": "https://github.com/matansuliman/keelo",
